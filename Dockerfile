@@ -22,9 +22,9 @@ ENV NG_CGI_URL             /cgi-bin
 ENV NAGIOS_BRANCH          nagios-4.5.9
 ENV NAGIOS_PLUGINS_BRANCH  release-2.4.12
 ENV NRPE_BRANCH            nrpe-4.1.3
-ENV NCPA_BRANCH            v3.1.3
+ENV NCPA_BRANCH            v3.2.0
 ENV NSCA_BRANCH            nsca-2.10.3
-ENV NAGIOSTV_VERSION       0.9.3
+ENV NAGIOSTV_VERSION       0.9.5
 
 
 RUN echo postfix postfix/main_mailer_type string "'Internet Site'" | debconf-set-selections  && \
