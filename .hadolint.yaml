@@ -1,0 +1,10 @@
+# These errors are ignored as fixing them might cause endesired behaviour when creating the image.
+ignored:
+  - DL3003
+  - DL3008
+  - DL3013
+  - DL3015
+  - DL3059
+  - SC2086
+  - SC2116
+  - SC2174
