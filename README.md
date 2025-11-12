@@ -8,12 +8,12 @@ This image runs in AWS Elasticbeanstalk with an EFS attached.
 
 | Product | Version |
 | ------- | ------- |
-| Nagios Core | 4.5.9 |
+| Nagios Core | 4.5.10 |
 | Nagios Plugins | 2.4.12 |
 | NRPE | 4.1.3 |
-| NCPA | 3.1.3 |
+| NCPA | 3.2.1 |
 | NSCA | 2.10.3 |
-| Nagios TV | 0.9.3 |
+| Nagios TV | 0.9.5 |
 
 ### Configurations
 Nagios Configuration lives in /opt/nagios/etc
