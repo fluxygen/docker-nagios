@@ -18,12 +18,12 @@ ENV NG_NAGIOS_CONFIG_FILE=${NAGIOS_HOME}/etc/nagios.cfg
 ENV NG_CGI_DIR=${NAGIOS_HOME}/sbin
 ENV NG_WWW_DIR=${NAGIOS_HOME}/share/nagiosgraph
 ENV NG_CGI_URL=/cgi-bin
-ENV NAGIOS_BRANCH=nagios-4.5.12
+ENV NAGIOS_BRANCH=nagios-4.5.13
 ENV NAGIOS_PLUGINS_BRANCH=release-2.5
 ENV NRPE_BRANCH=nrpe-4.1.3
-ENV NCPA_BRANCH=v3.3.1
+ENV NCPA_BRANCH=v3.4.1
 ENV NSCA_BRANCH=nsca-2.10.3
-ENV NAGIOSTV_VERSION=0.9.9
+ENV NAGIOSTV_VERSION=0.9.11
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN echo postfix postfix/main_mailer_type string "'Internet Site'" | debconf-set-selections  && \
