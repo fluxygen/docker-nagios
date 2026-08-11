@@ -8,10 +8,10 @@ This image runs in AWS Elasticbeanstalk with an EFS attached.
 
 | Product | Version |
 | ------- | ------- |
-| Nagios Core | 4.5.13 |
+| Nagios Core | 4.5.14 |
 | Nagios Plugins | 2.5 |
 | NRPE | 4.1.3 |
-| NCPA | 3.4.1 |
+| NCPA | 3.4.3 |
 | NSCA | 2.10.3 |
 | Nagios TV | 0.9.11 |
 
